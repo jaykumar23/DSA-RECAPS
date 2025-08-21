@@ -1,5 +1,5 @@
 // merge sort -> divide the elements using recursion & merge using conquer
-// TC: O(log n)
+// TC: O(nlog n)
 // SC: O(N)
 
 void merge(vector<int>& arr, int low, int mid, int high) {

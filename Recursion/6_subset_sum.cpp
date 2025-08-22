@@ -2,6 +2,8 @@
 // TC: O(2^n)
 // SC: O(2^n) w o/p
 
+// -> no need of backtrack as we are display all values
+
 class Solution {
   public:
     void recursion(int i, int sum, vector<int>& arr, vector<int>&ans){
